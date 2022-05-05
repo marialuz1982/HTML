@@ -1,0 +1,39 @@
+/*Comentarios*/
+
+#cabeceraweb{
+    background-color:#2C73D2 ;
+   
+}
+
+nav{
+    background-color: #845EC2;
+}
+
+#barralateral{ 
+    background-color: #FF6F91;
+     /*Rompe el flujo de como se colocan los elementos por defecto en una pagina, va a ocupar el ancho del texto */
+     float: left;
+     /*Altura*/
+     height: 1000px;
+}
+
+#contenidoprincial{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    margin-left: 210px;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+}
+
+#pieprincipal{
+    background-color:#F9F871 ;
+    /*Rompe el elemento float*/
+    clear:both;
+    margin-top: 100px;
+}
+
+li{
+    background-color:#FF9671;
+    /*Pone los elementos li en linea uno al lado del otro*/
+    display: inline;
+}

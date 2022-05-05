@@ -1,0 +1,51 @@
+p[name = "miselementos"]{
+    color : #00C9A7;    
+}
+
+#principal{
+    width: 500px;
+    /*background-color: #FF8066 ;*/
+    text-align: center;
+    /*Auto hace que siempre quede centrado sin importar el ancho de la pantalla*/
+    margin: 15px auto;
+    padding: 15px;
+    border: 3px solid  #C34A36;
+    border-radius: 15px;
+    box-shadow: #4B4453 10px 10px 10px; 
+    /*Mozillla*/
+    background:-moz-linear-gradient(top,#D16BA5,#5FFBF1);
+    /*Chrome*/
+    background:-webkit-radial-gradient(center, ellipse,#D16BA5 ,#5FFBF1,#86A8E7 );
+    /*Internet Explorer*/
+    background:-ms-linear-gradient(top,#D16BA5,#5FFBF1);
+    /*Opera*/
+    background:-o-linear-gradient(top,#D16BA5,#5FFBF1);
+    /*Agrega un borde por fuera del borde de la caja (dashed = punteado*/
+    outline: 2px dashed #B83FAE ;
+    /*Aleja el borde xpx*/
+    outline-offset: 10px;
+    /*Cambia el tamaño del elemento, si la escala es negativa invierte el elemento en espejo
+    -webkit-transform:scale(0.75) ;*/
+    /*Rota el elemto xdeg
+    -webkit-transform: rotate(5deg);*/
+    /*Aplicar perspectiva o cambiar la perspevtica de un elemento
+    -webkit-transform: skew(30deg);*/
+    -webkit-transition: -webkit-transform 1s ease-in-out 0.5s ;
+
+
+}
+/*cuando el mouse esta encima de elelmento*/
+#principal:hover{
+    -webkit-transform: rotate(5deg);
+
+}
+#titulo{
+    font: bold 36px 'baby';
+    text-shadow: #845EC2 3px 3px 5px ;
+    /*Cambia la transparencia del texto (va de 0 a 1)*/
+    color:rgba(0, 0, 0, 0.5);
+}
+@font-face {
+    font-family: baby;
+    src: url('Fuentes/BabyScript.ttf');
+}
